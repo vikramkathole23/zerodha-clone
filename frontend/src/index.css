@@ -226,7 +226,7 @@ body {
 }
 
 /* SignUp page */
-
+/* signup-hero */
 .SignUp-Hero {
   margin-top: 5rem;
 }
@@ -246,3 +246,34 @@ body {
 .SignUp-Hero .row .col img {
   width: 30rem;
 }
+.signup-img img {
+  width: 560PX;
+}
+.signup-form{
+  margin-left:10px ;
+}
+.signup-form h1{
+  font-size: 35px;
+  font-weight: 500;
+}
+.signup-form p{
+  font-size: smaller;
+  opacity: 0.8;
+  font-weight: 500;
+}
+.signup-form .form-input input{
+  width: 300px;
+  height: 50px;
+}
+.signup-form button{
+  height: 60px;
+  width: 250px;
+  margin-top:10px ;
+}
+.signup-form .term-policy{
+  margin-top: 30px;
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+/* signup-accountOPtions */

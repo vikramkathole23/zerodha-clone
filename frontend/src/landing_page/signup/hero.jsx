@@ -11,18 +11,18 @@ function Hero() {
             investors and traders
           </h2>
         </div>
-        <div className="container flex items-center justify-between ">
-          <div className="col-6 mt-4">
+        <div className=" container flex items-center justify-center ">
+          <div className="signup-img col-6 mt-4">
             <img
               src="https://zerodha.com/static/images/account_open.svg"
               alt="img"
             />
           </div>
-          <div className="col-6 p-4 ">
-              <h1 className="">Signup now</h1>
+          <div className="signup-form col-5 p-4 ">
+              <h1>Signup now</h1>
               <p>Or track your existing application</p>
-              <form action="">
-              <div class="input-group input-group-lg">
+            <form action="">
+              <div class="form-input input-group input-group-lg">
                 <span class="input-group-text" id="inputGroup-sizing-lg">
                  +91
                 </span>
@@ -32,10 +32,11 @@ function Hero() {
                   aria-describedby="inputGroup-sizing-lg"
                   type="number"
                 />    
-                 </div>
+              </div>
 
-              <button type="button" class="btn btn-primary btn-lg mt-4 border-r-inherit px-5">Large button</button>
+              <button type="button" class="btn btn-primary btn-lg mt-4 border-r-inherit px-5">Get OTP</button>
             </form>
+            <p className="term-policy">By proceeding, you agree to the Zerodha terms & privacy policy</p>
           </div>
         </div>
       </div>

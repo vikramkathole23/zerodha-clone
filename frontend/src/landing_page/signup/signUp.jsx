@@ -12,11 +12,11 @@ function Signup() {
         <>
            <Hero />
            <InvestmentOption/>
-           <StepToOpenAccount/>
+           {/* <StepToOpenAccount/>
            <Benifits/>
            <AccountType/>
            <FAQs/>
-           <OpenAccount/>
+           <OpenAccount/> */}
         </>
      );
 }
