@@ -1,0 +1,248 @@
+/* @import "tailwindcss"; */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  /* font-weight: 400;   */
+
+  color-scheme: light dark;
+  color: #242424;
+  background-color:  rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  /* margin: 0;
+   color: #424242;
+   min-height: 100vh; 
+   font-family: inter, serif;
+    font-size: 20px;*/
+  color: #424242;
+  font-family: "Inter", Arial, serif;
+  font-size: 20px;
+  width: 100%;
+  line-height: 1.7;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* styling for navbar */
+
+.nav-link {
+  text-align: right;
+  margin-right: 25px;
+  font-size: medium;
+}
+.navbar-nav {
+  margin-left: 480px;
+}
+.navbar {
+  background-color: white;
+}
+
+/* styling to home page */
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.imgContainer h1 {
+  font-size: 44px;
+}
+.HomeImage {
+  width: 40rem;
+  padding-left: auto;
+  line-height: 3;
+}
+
+/* styling for stats */
+
+.statsImg {
+  width: 38rem;
+  flex-shrink: inherit;
+}
+.row p {
+  font-size: medium;
+}
+
+.links {
+  text-decoration: none;
+  text-align: center;
+}
+.links a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.link-1 {
+  margin-right: 2rem;
+}
+
+.press-logo {
+  width: 45rem;
+  display: flex;
+}
+
+.pricing-box {
+  display: flex;
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+}
+.pricing-box p {
+  font-size: 12px;
+  width: 50px;
+}
+
+.pricing-link {
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.pricing-img {
+  width: 7rem;
+}
+
+/* style for education section */
+.education-box h1 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.education-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.education-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* sign up */
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* style for footer */
+.footer-col img {
+  width: 10rem;
+}
+
+.footer-col i {
+  margin: 1rem 2rem 2rem 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+  padding: 2rem 6rem 0 6rem;
+}
+.footer-col {
+  justify-content: space-evenly;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer li a {
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 3;
+  color: #4b4747;
+}
+
+.footer li a:hover {
+  color: rgb(87, 87, 211);
+}
+
+.footer h2 {
+  font-size: 20px;
+}
+.footer p {
+  font-size: 15px;
+  line-height: 2;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  background-color: #f4f4f4;
+}
+
+.footer-para {
+  padding: 2rem 6rem 0 6rem;
+}
+
+.footer-para p {
+  font-size: 10px;
+}
+.footer-para p a {
+  text-decoration: none;
+}
+
+.links li {
+  display: inline;
+  font-size: 12px;
+  margin: 0 30px 0 0;
+  font-weight: 400;
+}
+
+
+/* styling about page */
+
+.About-Hero{
+  margin-top: 5rem;
+
+}
+
+.About-Hero .row h1{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+ .About-Hero .row .col{
+  padding:0  0 0 5rem;
+}
+
+/* SignUp page */
+
+.SignUp-Hero {
+  margin-top: 5rem;
+}
+
+.SignUp-Hero  h1 {
+  font-size: 2.9rem;
+  font-weight: 500;
+}
+.SignUp-Hero h2 {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+.SignUp-Hero .row .col {
+  padding: 0 0 0 5rem;
+}
+.SignUp-Hero .row .col img {
+  width: 30rem;
+}
