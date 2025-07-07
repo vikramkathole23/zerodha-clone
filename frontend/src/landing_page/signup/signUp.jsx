@@ -9,14 +9,15 @@ import OpenAccount from '../../OpenAccount'
 
 function Signup() {
     return ( 
-        <>
+        <>  
+           
            <Hero />
            <InvestmentOption/>
-           {/* <StepToOpenAccount/>
+           <StepToOpenAccount/>
            <Benifits/>
            <AccountType/>
-           <FAQs/>
-           <OpenAccount/> */}
+           {/* <FAQs/> */}
+           {/* <OpenAccount/> */}
         </>
      );
 }

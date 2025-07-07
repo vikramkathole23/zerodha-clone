@@ -11,7 +11,7 @@ function Hero() {
             investors and traders
           </h2>
         </div>
-        <div className=" container flex items-center justify-center ">
+        <div className="mt-4 container flex items-center justify-center ">
           <div className="signup-img col-6 mt-4">
             <img
               src="https://zerodha.com/static/images/account_open.svg"

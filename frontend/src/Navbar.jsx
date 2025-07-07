@@ -6,7 +6,7 @@ import './index.css'
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg  border-bottom bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg sticky-top border-bottom bg-body-tertiary">
         <div className="container p-1">
           <Link className="navbar-brand" to="/">
             <img

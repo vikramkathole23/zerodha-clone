@@ -230,7 +230,9 @@ body {
 .SignUp-Hero {
   margin-top: 5rem;
 }
-
+.signup-img-form{
+  margin-top: 30px !important;
+}
 .SignUp-Hero  h1 {
   font-size: 2.9rem;
   font-weight: 500;
@@ -277,3 +279,112 @@ body {
 }
 
 /* signup-accountOPtions */
+
+.investment-option{
+  display: flex;
+}
+.investment-option p{
+     font-size: 16px;
+}
+.investment-option-section .investment-option h1{
+  font-size: 30px;
+}
+.investment-option-section h1{
+  font-size: 38px;
+}
+.investment-option-section{
+  text-align: center;
+  margin-top: 8rem;
+}
+.investment-option-datail{
+  text-align: start;
+  margin-left: 30px;
+}
+.investment-option-group{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:6rem 6rem 2rem 6rem;
+  row-gap: 60px;
+  column-gap: 120px;
+  padding: 10px 60px 10px 60px;
+}
+
+
+/* styling for stepsToopenAccoun section */
+.steps-to-open-account-section{
+  margin-top: 8rem;
+}
+.steps-to-open-account-section h1{
+  margin-bottom: 4rem;
+  font-size: 35px;
+  font-weight: 500;
+}
+.steps-to-open-account-section .steps-to-open-account{
+  display: flex;
+}
+.steps-to-open-account-section .steps-to-open-account .steps-to-open-account-list ol li{
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+.steps-to-open-account-list{
+  padding-left: 100px;
+}
+
+/* style for benifits section */
+.benifits-List h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.benifits-List p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.benifits-List{
+  margin-bottom: 40px;
+}
+.benifits-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+.benifits-section-img-box{
+  display: flex;
+  flex-direction:column ;
+  padding-left: 2rem;
+}
+.benifits-section-img-box img{
+  height: 250px;
+ 
+}
+.benifits-section-img-box h1{
+  font-size: 2rem;
+}
+
+/* styling for account type section  */
+.account-type-box-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.account-type-box-body{
+  padding: 20px;
+  text-align: start;
+}
+.account-type-box-text{
+  font-size: smaller;
+  margin-bottom:5px ;
+  opacity: 0.9;
+}
+.account-type-box{
+  width: 350px !important;
+}
+.account-type-section h1{
+  margin-bottom: 4rem;
+}
+.account-type-section .container .row{
+  column-gap: 2rem !important;
+}
