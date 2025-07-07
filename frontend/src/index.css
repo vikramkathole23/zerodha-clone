@@ -388,3 +388,14 @@ body {
 .account-type-section .container .row{
   column-gap: 2rem !important;
 }
+.account-type-box:hover{
+  border:2px solid blue;
+}
+
+/* faqs section */
+.faqs-section{
+  margin: 5rem 4rem 0 4rem;
+}
+.faqs-collapse{
+  border-top: 1px solid black;
+}

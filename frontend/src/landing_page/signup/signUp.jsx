@@ -16,7 +16,7 @@ function Signup() {
            <StepToOpenAccount/>
            <Benifits/>
            <AccountType/>
-           {/* <FAQs/> */}
+           <FAQs/>
            {/* <OpenAccount/> */}
         </>
      );
