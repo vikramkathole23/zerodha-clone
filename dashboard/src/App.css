@@ -1,0 +1,53 @@
+@import "tailwindcss";
+html, body {
+  @apply h-full text-black bg-white;
+}
+body {
+  @apply bg-gray-100 text-gray-900;
+}   
+
+/* Topbar */
+.topbar-container {
+  @apply flex items-center  h-[60px] border-1 border-b-black;
+}
+.left-topbar {
+  @apply flex items-center justify-around gap-2.5 w-[30%] h-[100%] border-r border-b-black ;
+}
+.left-topbar .nifty {
+  @apply text-sm font-medium flex items-center gap-4;
+}
+.left-topbar .sensex {
+  @apply text-sm font-medium flex items-center gap-4;
+}
+.left-topbar .index {
+  @apply text-[15px] font-semibold text-gray-600;
+}
+.left-topbar .index-point {
+  @apply text-[13px] font-semibold text-red-500;
+}
+.right-topbar {
+  @apply flex items-center justify-between gap-2.5 w-[70%] h-[100%] pl-4 pr-4;
+}
+.right-topbar .logo  {
+  @apply text-[20px] h-[50px] w-[60px] mt-2 font-semibold text-gray-600;
+}
+.right-topbar .dashboard-links {
+  @apply  flex items-center justify-center gap-4 text-[15px] font-semibold text-gray-500;
+}
+.right-topbar .dashboard-links ul {
+  @apply flex  items-center gap-5 ;
+}
+.right-topbar .dashboard-links ul p:hover {
+  @apply text-red-700 cursor-pointer;
+}
+.right-topbar .dashboard-links .Login-user{
+    @apply flex items-center justify-center gap-2 cursor-pointer border-l-1 border-b-black pl-2;
+}
+.right-topbar .dashboard-links .Login-user p:hover{
+    @apply  text-red-700;
+}
+.selected{
+    @apply  text-red-700;
+}
+/* Styling for wishlist */
+

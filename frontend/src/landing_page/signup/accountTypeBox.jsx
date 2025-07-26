@@ -9,7 +9,6 @@ function AccountTypeBox(props) {
           <p class="account-type-box-text">
             {props.description}
           </p>
-  
         </div>
       </div>
     </>
