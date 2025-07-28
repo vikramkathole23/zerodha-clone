@@ -1,17 +1,16 @@
 @import "tailwindcss";
 html, body {
-  @apply h-full text-black bg-white;
+  @apply h-full text-black bg-white overflow-y-hidden ;
 }
 body {
   @apply bg-gray-100 text-gray-900;
 }   
-
 /* Topbar */
 .topbar-container {
   @apply flex items-center  h-[60px] border-1 border-b-black;
 }
 .left-topbar {
-  @apply flex items-center justify-around gap-2.5 w-[30%] h-[100%] border-r border-b-black ;
+  @apply flex items-center justify-around gap-2.5 w-[36%] h-[100%] border-r border-b-black ;
 }
 .left-topbar .nifty {
   @apply text-sm font-medium flex items-center gap-4;
@@ -49,5 +48,188 @@ body {
 .selected{
     @apply  text-red-700;
 }
-/* Styling for wishlist */
+/* Styling for dashboard */
+.dashboard-container{
+  @apply flex ;
+}
+.dashboard-container .watchlist{
+  @apply w-[34%] border border-l-black h-[90vh];
+}
+/* styling for wishlist */
+.wishlist-items-container{
+  @apply h-[480px] overflow-auto  overflow-x-hidden;
+}
+.wishlist-indexes{
+  @apply mt-8;
+}
+.wishlist-index {
+  @apply flex items-center relative justify-between text-gray-500 ml-[10%] px-4 h-[70px] border-b border-b-black;
+}
+.wishlist-index:hover{
+  @apply bg-gray-300
+}
+.wishlist-index .index-name{
+  @apply text-[15px] opacity-70;
+}
+.wishlist-index .index-point{
+  @apply flex gap-2;
+}
 
+ .actions {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.actions span button {
+  width: 40px;
+  height: 30px;
+  border-radius: 4px;
+  text-align: center;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.buy {
+  background-color: #4184f3;
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.8rem;
+  border: 0.7px solid #4184f3;
+}
+
+.sell {
+  background-color: #ff5722;
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.8rem;
+  border: 0.7px solid #ff5722;
+}
+
+.action {
+  background-color: #fff;
+  border: 0.7px solid #9b9b9b;
+}
+
+.icon {
+  transform: scale(1);
+  color: rgb(65, 65, 65);
+}
+
+/* styling for dashboard summary */
+
+.summary-container{
+  @apply w-[100%]   px-[30px];
+}
+ .username{
+  @apply text-2xl mt-[100px] 
+}
+.content{
+  @apply w-[70%] h-[550px] overflow-y-auto
+}
+/*.divider{
+  @apply mt-[20px] 
+}
+.section{
+  @apply mt-[100px]
+}
+.section span p{
+  @apply inline-block text-[1.2rem] font-[300]
+}
+.data{
+  @apply flex 
+}
+.first h3{
+  @apply text-5xl mb-[40px] border-r border-r-black 
+} */
+.username h6 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(83, 83, 83);
+  margin-bottom: 20px;
+}
+
+.divider {
+  border: none;
+  background: #d1d1d1;
+  height: 1px;
+  margin: 20px 0;
+  margin-bottom: 5%;
+}
+
+.section {
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.section span {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.section span p {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+
+.data {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.data .first h3 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: rgb(71, 71, 71);
+}
+
+.data .first p {
+  font-size: 0.8rem;
+  color: rgb(136, 136, 136);
+  margin-top: 30px;
+}
+
+.data .first small {
+  font-size: 0.8rem;
+  color: rgb(72, 194, 55);
+}
+
+.data .first .profit {
+  color: rgb(72, 194, 55);
+}
+
+.data hr {
+  border-left: 0.6px solid rgb(243, 242, 242);
+  height: 70px;
+}
+
+.data .second p {
+  font-size: 0.8rem;
+  color: rgb(136, 136, 136);
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.data .second p span {
+  display: inline;
+  margin-left: 5%;
+  font-size: 0.9rem;
+  color: rgb(100, 100, 100);
+}
+
+.section hr {
+  margin-top: 6%;
+  margin-bottom: 50px;
+}
