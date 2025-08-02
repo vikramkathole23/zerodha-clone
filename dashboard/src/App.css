@@ -233,3 +233,50 @@ body {
   margin-top: 6%;
   margin-bottom: 50px;
 }
+
+/* styling for position page */
+.positions{
+  @apply p-8 mt-[35px]
+}
+.positions h1{
+  @apply text-2xl opacity-80 font-light mb-6
+}
+tr{
+  @apply border-t border-b border-black 
+}
+table{
+  @apply w-[100%]  text-center 
+}
+th{
+  @apply text-[13px] font-extralight h-[50px]
+}
+td{
+  @apply h-[40px] text-[15px]
+}
+.chg-data{
+  @apply  text-[12px]
+}
+.product{
+  @apply border-r border-black 
+}
+
+/* styling for holdings */
+.holdings{
+  @apply p-8
+}
+.profit{
+  @apply text-green-600 
+}
+.isloss{
+  @apply text-red-500 
+}
+
+.investment{
+  @apply flex justify-between mt-25
+}
+.investment .Amount{
+  @apply text-3xl font-light
+}
+.investment  .T-invest{
+  @apply mt-8 font-extralight
+}
